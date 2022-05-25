@@ -1,5 +1,5 @@
 <template>
-  <div class="header flex justify-between items-center h-24">
+  <div class="header w-full flex justify-between items-center h-24">
     <img src="../assets/images/Logo.png" alt="proximity-logo" class="px-4" />
     <div class="header-menu md:flex justify-center items-center hidden">
       <div class="flex text-xl">
@@ -10,7 +10,7 @@
         <a href="/" class="px-4 py-2 text-white">Contact</a>
       </div>
       <div
-        class="language border-solid border-y-2 border-l-2 p-1 border-white text-white ml-4"
+        class="language border-solid border-y-[1px] border-l-[1px] p-1 border-white text-white ml-4"
       >
         EN/FR
       </div>
