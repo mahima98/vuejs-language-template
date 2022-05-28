@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AvenirBlack";
+  src: url("../public/fonts/Avenir-Black.ttf");
+}
+@font-face {
+  font-family: "AvenirBook";
+  src: url("../public/fonts/Avenir-Book.ttf");
+}
+@font-face {
+  font-family: "AvenirMedium";
+  src: url("../public/fonts/Avenir-Medium.ttf");
+}
