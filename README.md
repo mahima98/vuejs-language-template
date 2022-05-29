@@ -1,5 +1,7 @@
 #### Hangar assignment.
 
+<img src="public/hangar.png"/>
+
 Website is responsive.
 MultiLanguage website EN/FR.
 
@@ -15,6 +17,10 @@ npm install
 npm run dev
 ```
 
-### Using Vue 3 + Vite + TailwindCSS
+# Requirements
+
+- Vue 3
+- Vite
+- TailwindCSS 3
 
 ### Vue-i18n for translation
