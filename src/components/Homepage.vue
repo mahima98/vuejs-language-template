@@ -6,8 +6,8 @@
         <p
           class="text-4xl md:text-6xl lg:text-7xl text-white text-center flex flex-col gap-3"
         >
-          <span>We make people</span>
-          <span>more valuable to brands</span>
+          <span>{{ $t("homepage.descriptionOne_1") }}</span>
+          <span>{{ $t("homepage.descriptionOne_2") }}</span>
         </p>
         <button
           class="arrow-down z-50 py-10 animate-bounce"
@@ -35,12 +35,14 @@
         class="w-full h-full flex flex-col justify-between items-center py-8"
       >
         <div class="flex flex-col justify-center items-center gap-4 pt-16">
-          <h4 class="text-red-600 font-bold">HOW WE DO IT</h4>
+          <h4 class="text-red-600 font-bold">
+            {{ $t("homepage.headingOne") }}
+          </h4>
           <div
             class="flex flex-col text-center gap-1 text-2xl md:text-4xl font-light"
           >
-            <span>We use data-driven creativity</span>
-            <span>to solve business problems</span>
+            <span>{{ $t("homepage.descriptionTwo_1") }}</span>
+            <span>{{ $t("homepage.descriptionTwo_2") }}</span>
           </div>
         </div>
         <div class="relative second-img w-full bg-no-repeat">
@@ -54,12 +56,7 @@
           <p
             class="para md:absolute text-sm md:text-xl left-[50%] top-[90%] md:-translate-y-[50%] md:-translate-x-[50%] bg-white p-8 md:p-16 md:[500px] lg:w-[900px] mx-auto"
           >
-            By harnessing powerful insights and smart targeting, we’re able to
-            create behavior-changing ideas and experiences that deliver value to
-            brands. Supported by our proprietary Creative Intelligence process,
-            unique tools and global partners, we are able to put data at the
-            heart of everything we do to orchestrate experiences that deliver
-            creativity with precision and purpose.
+            {{ $t("homepage.descriptionThree") }}
           </p>
         </div>
       </div>
@@ -73,7 +70,7 @@
         alt=""
       />
       <h4 class="text-red-600 font-bold pt-8">
-        BUSINESS PROBLEMS WE’VE SOLVED
+        {{ $t("homepage.headingTwo") }}
       </h4>
       <div
         class="grid grid-rows-2 grid-cols-none md:grid-cols-2 md:grid-rows-none gap-4 w-full h-96 my-16 px-16"
@@ -85,9 +82,11 @@
             class="absolute flex flex-col gap-2 bottom-0 w-[260px] p-8 text-white"
           >
             <p class="leading-5 text-lg">
-              Can a love story double as a hearing test?
+              {{ $t("homepage.headingThree") }}
             </p>
-            <a href="#" class="underline text-sm">Find out here</a>
+            <a href="#" class="underline text-sm">
+              {{ $t("homepage.link1") }}
+            </a>
           </div>
         </div>
         <div
@@ -97,17 +96,20 @@
             class="absolute flex flex-col gap-2 bottom-0 w-[260px] p-8 text-white"
           >
             <p class="leading-5 text-lg">
-              How close to an AFL player can you get?
+              {{ $t("homepage.headingFour") }}
             </p>
-            <a href="#" class="underline text-sm">Find out here</a>
+            <a href="#" class="underline text-sm">
+              {{ $t("homepage.link1") }}</a
+            >
           </div>
         </div>
       </div>
       <a
         href="#"
         class="underline text-md text-thin hover:text-red-500 transition-opacity duration-500 opacity-80"
-        >View our work</a
       >
+        {{ $t("homepage.link2") }}
+      </a>
     </section>
   </div>
 </template>

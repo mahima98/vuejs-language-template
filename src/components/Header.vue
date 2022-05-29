@@ -1,19 +1,21 @@
 <template>
-  <div class="header w-full flex justify-between items-center h-24">
+  <div class="header w-full flex justify-between items-center h-24 z-40">
     <img src="../assets/images/Logo.png" alt="proximity-logo" class="px-4" />
+
     <div class="header-menu md:flex justify-center items-center hidden">
-      <div class="flex text-xl">
+      <div class="flex md:text-sm lg:text-xl z-30">
         <a
           href="/"
           v-for="menu in menus"
           :key="menu"
           class="px-4 py-2 text-white hover:opacity-80"
-          >{{ menu }}</a
         >
+          {{ $t(`menu.${menu}`) }}
+        </a>
       </div>
       <button
-        @click="setLang = !setLang"
-        class="language border-solid border-y-[1px] border-l-[1px] p-1 border-white text-white ml-4"
+        @click="setLanguage"
+        class="z-30 language border-solid border-y-[1px] border-l-[1px] p-1 border-white text-white ml-4"
       >
         EN/FR
       </button>
@@ -79,7 +81,8 @@
             :key="menu"
             href="#"
             class="flex justify-center items-center px-3 py-4 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >{{ menu }}
+          >
+            {{ $t(`menu.${menu}`) }}
           </a>
         </div>
       </div>
@@ -88,16 +91,20 @@
 </template>
 <script setup>
 import { ref } from "vue";
+import i18n from "../../i18n";
+import { computed } from "vue";
 
 const open = ref(false);
-const setLang = ref(true);
+const setLang = ref(false);
+let menus = ["about", "work", "latest", "people", "contact"];
 
-let menus = ["About", "Work", "Latest", "People & Careers", "Contact"];
-let menusEN = [
-  "A propos",
-  "Nos campagnes",
-  "News",
-  "Equipe & carrière",
-  "Contact",
-];
+function setLanguage() {
+  if (!setLang.value) {
+    setLang.value = true;
+    return (i18n.global.locale = "en");
+  } else {
+    setLang.value = false;
+    return (i18n.global.locale = "fr");
+  }
+}
 </script>

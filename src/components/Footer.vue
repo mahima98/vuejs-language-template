@@ -3,7 +3,7 @@
     class="relative flex justify-between items-center px-4 md:px-16 h-24 bg-gradient-to-r from-pink-500 via-red-400 to-orange-500"
   >
     <div class="text-white text-xs w-48 md:w-full md:text-md">
-      © Proximity Worldwide 2018. All Rights Reserved. Privacy statement.
+      {{ $t("homepage.footer") }}
     </div>
     <div class="flex gap-4">
       <a href="">
@@ -35,8 +35,9 @@
       @click="backToTop"
       class="absolute animate-bounce flex justify-center items-center gap-1 -top-8 right-8"
     >
-      <span>Return to top</span
-      ><svg
+      <span>{{ $t("homepage.backToTop") }}</span>
+
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4"
         fill="none"
