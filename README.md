@@ -5,6 +5,10 @@
 Website is responsive.
 MultiLanguage website EN/FR.
 
+# View site live
+
+- https://hangar-mahima-assign.netlify.app/
+
 ## To setup project
 
 ```
