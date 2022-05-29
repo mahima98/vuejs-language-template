@@ -5,7 +5,7 @@
 Website is responsive.
 MultiLanguage website EN/FR.
 
-# View site live
+# View site live (using netlify)
 
 - https://hangar-mahima-assign.netlify.app/
 
