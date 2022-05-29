@@ -21,3 +21,7 @@ body {
   font-family: "AvenirMedium";
   src: url("../public/fonts/Avenir-Medium.ttf");
 }
+
+.container {
+  max-width: 1150px;
+}

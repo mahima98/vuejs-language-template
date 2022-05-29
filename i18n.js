@@ -26,7 +26,7 @@ const messages = {
       link2: "View our work",
       backToTop: "Return to top",
       footer:
-        "© Proximity Worldwide 2018. All Rights Reserved. Privacy statement.",
+        "&copy; Proximity Worldwide 2018. All Rights Reserved. Privacy statement.",
     },
   },
   fr: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Homepage />
+    <router-view :key="$route.params?.id" />
     <Footer />
   </div>
 </template>
