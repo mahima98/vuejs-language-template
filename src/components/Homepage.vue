@@ -17,6 +17,7 @@
         class="flex flex-col justify-between items-center max-w-[1700px] mx-auto h-full"
       >
         <Header />
+        <h1 class="sr-only">Proximity</h1>
         <p
           class="text-4xl md:text-5xl lg:text-7xl text-white text-center flex flex-col gap-3 z-10"
         >
@@ -89,7 +90,7 @@
         class="grid grid-rows-2 grid-cols-none px-8 lg:px-2 max-w-[1700px] mx-auto md:grid-cols-2 md:grid-rows-none gap-4 w-full h-96 my-16"
       >
         <router-link
-         to="/"
+          to="/"
           class="grid-1 object-contain bg-gray-400 relative hover:opacity-80 transition-opacity duration-500 ease-in-out"
         >
           <div

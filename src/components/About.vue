@@ -3,7 +3,7 @@
   <div
     class="h-screen text-4xl w-full flex justify-center items-center text-black"
   >
-    About
+    {{ $t("about") }}
   </div>
 </template>
 <script setup>

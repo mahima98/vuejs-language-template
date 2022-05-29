@@ -58,6 +58,9 @@ const messages = {
       footer:
         "© Proximity Worldwide 2018. Tous droits réservés. Déclaration de confidentialité.",
     },
+
+    about: "A propos",
+    work: "Nos Campagne",
   },
 };
 const i18n = createI18n({
