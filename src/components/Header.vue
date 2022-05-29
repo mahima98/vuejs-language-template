@@ -38,11 +38,11 @@
       focus
       :class="[
         open ? `opacity-1 md:hidden` : `opacity-0`,
-        `absolute z-10 w-screen h-full top-0 -r-[500px] p-2 transition-opacity duration-500 ease-in-out origin-top-right overflow-hidden`,
+        `absolute z-10 w-full h-full top-0 p-2 transition-opacity duration-500 ease-in-out origin-top-right overflow-hidden`,
       ]"
     >
       <div
-        class="absolute rounded-lg shadow-md w-screen h-full bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
+        class="absolute rounded-lg shadow-md w-full lg:w-0 h-full bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
       >
         <div class="px-5 pt-4 flex items-center justify-between w-full">
           <div>
