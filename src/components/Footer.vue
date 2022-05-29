@@ -33,7 +33,7 @@
     </div>
     <button
       @click="backToTop"
-      class="absolute animate-bounce flex justify-center items-center gap-1 -top-8 right-8"
+      class="absolute animate-bounce flex justify-center items-center gap-1 -top-8 right-8 text-gray-800 hover:text-gray-500"
     >
       <span>{{ $t("homepage.backToTop") }}</span>
 
