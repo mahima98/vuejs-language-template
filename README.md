@@ -1,10 +1,9 @@
-# hangar-mahima-assignm
+#### Hangar assignment.
 
-assignment Hangar.
 Website is responsive.
 MultiLanguage website EN/FR.
 
-## To setuo project
+## To setup project
 
 ```
 npm install
@@ -18,4 +17,4 @@ npm run dev
 
 ### Using Vue 3 + Vite + TailwindCSS
 
-## Vue-i18n for translation
+### Vue-i18n for translation
