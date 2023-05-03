@@ -1,6 +1,6 @@
 #### A template made from scratch using Vue-i18n for translation
 
-<img src="public/hangar.png"/>
+<img src="public/vuejs-translation.png"/>
 
 Website is responsive.
 MultiLanguage website EN/FR.
