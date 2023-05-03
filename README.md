@@ -1,4 +1,4 @@
-#### Hangar assignment.
+#### A template made from scratch using Vue-i18n for translation
 
 <img src="public/hangar.png"/>
 
@@ -7,7 +7,7 @@ MultiLanguage website EN/FR.
 
 # View site live (using netlify)
 
-- https://hangar-mahima-assign.netlify.app/
+- https://vuejs-language-template.netlify.app/
 
 ## To setup project
 
