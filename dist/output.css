@@ -614,6 +614,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1rem;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -632,6 +636,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[260px\] {
   width: 260px;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .max-w-\[1700px\] {
@@ -1205,8 +1217,16 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:m-0 {
+    margin: 0px;
+  }
+
   .lg\:-mt-8 {
     margin-top: -2rem;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:w-0 {
@@ -1219,6 +1239,31 @@ body {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-purple-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(216 180 254 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-purple-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 232 255 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-purple-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(107 33 168 / var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-purple-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(168 85 247 / var(--tw-bg-opacity));
   }
 
   .lg\:px-0 {

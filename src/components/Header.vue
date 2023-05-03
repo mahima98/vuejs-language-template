@@ -3,9 +3,9 @@
     <div class="max-w-[1700px] mx-auto flex justify-between items-center h-24">
       <router-link to="/">
         <img
-          src="../assets/images/Logo.png"
+          src="../assets/images/flowerLogo.png"
           alt="proximity-logo"
-          class="lg:px-0 px-4"
+          class="lg:px-0 lg:m-0 ml-4 px-4 w-20 lg:w-12 lg:bg-purple-300 animate-spin"
         />
       </router-link>
 
@@ -64,9 +64,9 @@
           <div class="px-4 pt-4 flex items-center justify-between w-full">
             <div>
               <img
-                src="../assets/images/Logo.png"
+                src="../assets/images/flowerLogo.png"
                 alt="proximity-logo"
-                class="h-auto w-48"
+                class="h-auto w-10"
               />
             </div>
             <button @click="open = !open">

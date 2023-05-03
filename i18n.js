@@ -26,7 +26,7 @@ const messages = {
       link2: "View our work",
       backToTop: "Return to top",
       footer:
-        "&copy; Proximity Worldwide 2018. All Rights Reserved. Privacy statement.",
+        "© Ramgolam Mahima 2023.",
     },
   },
   fr: {
@@ -56,7 +56,7 @@ const messages = {
       link2: "Voir notre travail",
       backToTop: "Retourner en haut",
       footer:
-        "© Proximity Worldwide 2018. Tous droits réservés. Déclaration de confidentialité.",
+        "© Ramgolam Mahima 2023.",
     },
 
     about: "A propos",
